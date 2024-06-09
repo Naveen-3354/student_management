@@ -1,0 +1,882 @@
+[
+  {
+    "code": "CS101",
+    "name": "Introduction to Computer Science",
+    "description": "Basic concepts of computer science.",
+    "credits": 3,
+    "instructor": "John Doe",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS102",
+    "name": "Data Structures",
+    "description": "Study of data structures and algorithms.",
+    "credits": 3,
+    "instructor": "William Jones",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS103",
+    "name": "Operating Systems",
+    "description": "Fundamentals of operating systems.",
+    "credits": 4,
+    "instructor": "Richard Wilson",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS104",
+    "name": "Database Systems",
+    "description": "Introduction to database management systems.",
+    "credits": 3,
+    "instructor": "Charles Martin",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS105",
+    "name": "Computer Networks",
+    "description": "Principles of computer networking.",
+    "credits": 3,
+    "instructor": "Matthew Clark",
+    "department": "Computer Science"
+  },
+  {
+    "code": "MA101",
+    "name": "Calculus I",
+    "description": "Differential and integral calculus.",
+    "credits": 4,
+    "instructor": "Jane Smith",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA102",
+    "name": "Calculus II",
+    "description": "Continuation of Calculus I.",
+    "credits": 4,
+    "instructor": "Linda Garcia",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA103",
+    "name": "Linear Algebra",
+    "description": "Introduction to linear algebra.",
+    "credits": 3,
+    "instructor": "Susan Anderson",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA104",
+    "name": "Discrete Mathematics",
+    "description": "Fundamentals of discrete mathematics.",
+    "credits": 3,
+    "instructor": "Karen Lee",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA105",
+    "name": "Probability and Statistics",
+    "description": "Introduction to probability and statistics.",
+    "credits": 3,
+    "instructor": "Betty Rodriguez",
+    "department": "Mathematics"
+  },
+  {
+    "code": "PH101",
+    "name": "Physics I",
+    "description": "Mechanics and thermodynamics.",
+    "credits": 4,
+    "instructor": "Michael Johnson",
+    "department": "Physics"
+  },
+  {
+    "code": "PH102",
+    "name": "Physics II",
+    "description": "Electricity and magnetism.",
+    "credits": 4,
+    "instructor": "James Martinez",
+    "department": "Physics"
+  },
+  {
+    "code": "PH103",
+    "name": "Quantum Mechanics",
+    "description": "Introduction to quantum mechanics.",
+    "credits": 3,
+    "instructor": "Joseph Thomas",
+    "department": "Physics"
+  },
+  {
+    "code": "PH104",
+    "name": "Thermodynamics",
+    "description": "Fundamentals of thermodynamics.",
+    "credits": 3,
+    "instructor": "Christopher Perez",
+    "department": "Physics"
+  },
+  {
+    "code": "PH105",
+    "name": "Optics",
+    "description": "Study of light and optics.",
+    "credits": 3,
+    "instructor": "Anthony Lewis",
+    "department": "Physics"
+  },
+  {
+    "code": "CH101",
+    "name": "General Chemistry I",
+    "description": "Basic principles of chemistry.",
+    "credits": 4,
+    "instructor": "Emily Davis",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH102",
+    "name": "General Chemistry II",
+    "description": "Continuation of General Chemistry I.",
+    "credits": 4,
+    "instructor": "Patricia Hernandez",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH103",
+    "name": "Organic Chemistry",
+    "description": "Study of organic compounds.",
+    "credits": 4,
+    "instructor": "Jessica Taylor",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH104",
+    "name": "Analytical Chemistry",
+    "description": "Methods of chemical analysis.",
+    "credits": 3,
+    "instructor": "Nancy Thompson",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH105",
+    "name": "Physical Chemistry",
+    "description": "Principles of physical chemistry.",
+    "credits": 3,
+    "instructor": "Sandra Walker",
+    "department": "Chemistry"
+  },
+  {
+    "code": "BI101",
+    "name": "Biology I",
+    "description": "Introduction to biology.",
+    "credits": 4,
+    "instructor": "Robert Miller",
+    "department": "Biology"
+  },
+  {
+    "code": "BI102",
+    "name": "Biology II",
+    "description": "Continuation of Biology I.",
+    "credits": 4,
+    "instructor": "David Lopez",
+    "department": "Biology"
+  },
+  {
+    "code": "BI103",
+    "name": "Microbiology",
+    "description": "Study of microorganisms.",
+    "credits": 3,
+    "instructor": "Thomas Moore",
+    "department": "Biology"
+  },
+  {
+    "code": "BI104",
+    "name": "Genetics",
+    "description": "Principles of genetics.",
+    "credits": 3,
+    "instructor": "Daniel White",
+    "department": "Biology"
+  },
+  {
+    "code": "BI105",
+    "name": "Biochemistry",
+    "description": "Study of chemical processes in living organisms.",
+    "credits": 4,
+    "instructor": "Donald Hall",
+    "department": "Biology"
+  },
+  {
+    "code": "EN101",
+    "name": "Introduction to Engineering",
+    "description": "Overview of engineering disciplines.",
+    "credits": 3,
+    "instructor": "Mary Brown",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN102",
+    "name": "Engineering Mechanics",
+    "description": "Statics and dynamics.",
+    "credits": 3,
+    "instructor": "Barbara Gonzalez",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN103",
+    "name": "Thermodynamics",
+    "description": "Principles of thermodynamics.",
+    "credits": 3,
+    "instructor": "Sarah Jackson",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN104",
+    "name": "Fluid Mechanics",
+    "description": "Study of fluid behavior.",
+    "credits": 3,
+    "instructor": "Lisa Harris",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN105",
+    "name": "Materials Science",
+    "description": "Properties and applications of materials.",
+    "credits": 3,
+    "instructor": "Ashley Allen",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN201",
+    "name": "Electrical Circuits",
+    "description": "Fundamentals of electrical circuits.",
+    "credits": 4,
+    "instructor": "John Doe",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN202",
+    "name": "Control Systems",
+    "description": "Principles of control systems.",
+    "credits": 4,
+    "instructor": "Mary Brown",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN203",
+    "name": "Digital Electronics",
+    "description": "Study of digital circuits.",
+    "credits": 4,
+    "instructor": "Sarah Jackson",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN204",
+    "name": "Mechanical Engineering Design",
+    "description": "Design principles in mechanical engineering.",
+    "credits": 4,
+    "instructor": "Lisa Harris",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN205",
+    "name": "Heat Transfer",
+    "description": "Study of heat transfer principles.",
+    "credits": 4,
+    "instructor": "Ashley Allen",
+    "department": "Engineering"
+  },
+  {
+    "code": "CS201",
+    "name": "Algorithms",
+    "description": "Advanced study of algorithms.",
+    "credits": 3,
+    "instructor": "John Doe",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS101",
+    "name": "Introduction to Computer Science",
+    "description": "Basic concepts of computer science.",
+    "credits": 3,
+    "instructor": "John Doe",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS102",
+    "name": "Data Structures",
+    "description": "Study of data structures and algorithms.",
+    "credits": 3,
+    "instructor": "William Jones",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS103",
+    "name": "Operating Systems",
+    "description": "Fundamentals of operating systems.",
+    "credits": 4,
+    "instructor": "Richard Wilson",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS104",
+    "name": "Database Systems",
+    "description": "Introduction to database management systems.",
+    "credits": 3,
+    "instructor": "Charles Martin",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS105",
+    "name": "Computer Networks",
+    "description": "Principles of computer networking.",
+    "credits": 3,
+    "instructor": "Matthew Clark",
+    "department": "Computer Science"
+  },
+  {
+    "code": "MA101",
+    "name": "Calculus I",
+    "description": "Differential and integral calculus.",
+    "credits": 4,
+    "instructor": "Jane Smith",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA102",
+    "name": "Calculus II",
+    "description": "Continuation of Calculus I.",
+    "credits": 4,
+    "instructor": "Linda Garcia",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA103",
+    "name": "Linear Algebra",
+    "description": "Introduction to linear algebra.",
+    "credits": 3,
+    "instructor": "Susan Anderson",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA104",
+    "name": "Discrete Mathematics",
+    "description": "Fundamentals of discrete mathematics.",
+    "credits": 3,
+    "instructor": "Karen Lee",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA105",
+    "name": "Probability and Statistics",
+    "description": "Introduction to probability and statistics.",
+    "credits": 3,
+    "instructor": "Betty Rodriguez",
+    "department": "Mathematics"
+  },
+  {
+    "code": "PH101",
+    "name": "Physics I",
+    "description": "Mechanics and thermodynamics.",
+    "credits": 4,
+    "instructor": "Michael Johnson",
+    "department": "Physics"
+  },
+  {
+    "code": "PH102",
+    "name": "Physics II",
+    "description": "Electricity and magnetism.",
+    "credits": 4,
+    "instructor": "James Martinez",
+    "department": "Physics"
+  },
+  {
+    "code": "PH103",
+    "name": "Quantum Mechanics",
+    "description": "Introduction to quantum mechanics.",
+    "credits": 3,
+    "instructor": "Joseph Thomas",
+    "department": "Physics"
+  },
+  {
+    "code": "PH104",
+    "name": "Thermodynamics",
+    "description": "Fundamentals of thermodynamics.",
+    "credits": 3,
+    "instructor": "Christopher Perez",
+    "department": "Physics"
+  },
+  {
+    "code": "PH105",
+    "name": "Optics",
+    "description": "Study of light and optics.",
+    "credits": 3,
+    "instructor": "Anthony Lewis",
+    "department": "Physics"
+  },
+  {
+    "code": "CH101",
+    "name": "General Chemistry I",
+    "description": "Basic principles of chemistry.",
+    "credits": 4,
+    "instructor": "Emily Davis",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH102",
+    "name": "General Chemistry II",
+    "description": "Continuation of General Chemistry I.",
+    "credits": 4,
+    "instructor": "Patricia Hernandez",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH103",
+    "name": "Organic Chemistry",
+    "description": "Study of organic compounds.",
+    "credits": 4,
+    "instructor": "Jessica Taylor",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH104",
+    "name": "Analytical Chemistry",
+    "description": "Methods of chemical analysis.",
+    "credits": 3,
+    "instructor": "Nancy Thompson",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH105",
+    "name": "Physical Chemistry",
+    "description": "Principles of physical chemistry.",
+    "credits": 3,
+    "instructor": "Sandra Walker",
+    "department": "Chemistry"
+  },
+  {
+    "code": "BI101",
+    "name": "Biology I",
+    "description": "Introduction to biology.",
+    "credits": 4,
+    "instructor": "Robert Miller",
+    "department": "Biology"
+  },
+  {
+    "code": "BI102",
+    "name": "Biology II",
+    "description": "Continuation of Biology I.",
+    "credits": 4,
+    "instructor": "David Lopez",
+    "department": "Biology"
+  },
+  {
+    "code": "BI103",
+    "name": "Microbiology",
+    "description": "Study of microorganisms.",
+    "credits": 3,
+    "instructor": "Thomas Moore",
+    "department": "Biology"
+  },
+  {
+    "code": "BI104",
+    "name": "Genetics",
+    "description": "Principles of genetics.",
+    "credits": 3,
+    "instructor": "Daniel White",
+    "department": "Biology"
+  },
+  {
+    "code": "BI105",
+    "name": "Biochemistry",
+    "description": "Study of chemical processes in living organisms.",
+    "credits": 4,
+    "instructor": "Donald Hall",
+    "department": "Biology"
+  },
+  {
+    "code": "EN101",
+    "name": "Introduction to Engineering",
+    "description": "Overview of engineering disciplines.",
+    "credits": 3,
+    "instructor": "Mary Brown",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN102",
+    "name": "Engineering Mechanics",
+    "description": "Statics and dynamics.",
+    "credits": 3,
+    "instructor": "Barbara Gonzalez",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN103",
+    "name": "Thermodynamics",
+    "description": "Principles of thermodynamics.",
+    "credits": 3,
+    "instructor": "Sarah Jackson",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN104",
+    "name": "Fluid Mechanics",
+    "description": "Study of fluid behavior.",
+    "credits": 3,
+    "instructor": "Lisa Harris",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN105",
+    "name": "Materials Science",
+    "description": "Properties and applications of materials.",
+    "credits": 3,
+    "instructor": "Ashley Allen",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN201",
+    "name": "Electrical Circuits",
+    "description": "Fundamentals of electrical circuits.",
+    "credits": 4,
+    "instructor": "John Doe",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN202",
+    "name": "Control Systems",
+    "description": "Principles of control systems.",
+    "credits": 4,
+    "instructor": "Mary Brown",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN203",
+    "name": "Digital Electronics",
+    "description": "Study of digital circuits.",
+    "credits": 4,
+    "instructor": "Sarah Jackson",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN204",
+    "name": "Mechanical Engineering Design",
+    "description": "Design principles in mechanical engineering.",
+    "credits": 4,
+    "instructor": "Lisa Harris",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN205",
+    "name": "Heat Transfer",
+    "description": "Study of heat transfer principles.",
+    "credits": 4,
+    "instructor": "Ashley Allen",
+    "department": "Engineering"
+  },
+  {
+    "code": "CS201",
+    "name": "Algorithms",
+    "description": "Advanced study of algorithms.",
+    "credits": 3,
+    "instructor": "John Doe",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS202",
+    "name": "Machine Learning",
+    "description": "Introduction to machine learning concepts.",
+    "credits": 4,
+    "instructor": "William Jones",
+    "department": "Computer"
+  },
+  {
+    "code": "CS101",
+    "name": "Introduction to Computer Science",
+    "description": "Basic concepts of computer science.",
+    "credits": 3,
+    "instructor": "John Doe",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS102",
+    "name": "Data Structures",
+    "description": "Study of data structures and algorithms.",
+    "credits": 3,
+    "instructor": "William Jones",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS103",
+    "name": "Operating Systems",
+    "description": "Fundamentals of operating systems.",
+    "credits": 4,
+    "instructor": "Richard Wilson",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS104",
+    "name": "Database Systems",
+    "description": "Introduction to database management systems.",
+    "credits": 3,
+    "instructor": "Charles Martin",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS105",
+    "name": "Computer Networks",
+    "description": "Principles of computer networking.",
+    "credits": 3,
+    "instructor": "Matthew Clark",
+    "department": "Computer Science"
+  },
+  {
+    "code": "MA101",
+    "name": "Calculus I",
+    "description": "Differential and integral calculus.",
+    "credits": 4,
+    "instructor": "Jane Smith",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA102",
+    "name": "Calculus II",
+    "description": "Continuation of Calculus I.",
+    "credits": 4,
+    "instructor": "Linda Garcia",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA103",
+    "name": "Linear Algebra",
+    "description": "Introduction to linear algebra.",
+    "credits": 3,
+    "instructor": "Susan Anderson",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA104",
+    "name": "Discrete Mathematics",
+    "description": "Fundamentals of discrete mathematics.",
+    "credits": 3,
+    "instructor": "Karen Lee",
+    "department": "Mathematics"
+  },
+  {
+    "code": "MA105",
+    "name": "Probability and Statistics",
+    "description": "Introduction to probability and statistics.",
+    "credits": 3,
+    "instructor": "Betty Rodriguez",
+    "department": "Mathematics"
+  },
+  {
+    "code": "PH101",
+    "name": "Physics I",
+    "description": "Mechanics and thermodynamics.",
+    "credits": 4,
+    "instructor": "Michael Johnson",
+    "department": "Physics"
+  },
+  {
+    "code": "PH102",
+    "name": "Physics II",
+    "description": "Electricity and magnetism.",
+    "credits": 4,
+    "instructor": "James Martinez",
+    "department": "Physics"
+  },
+  {
+    "code": "PH103",
+    "name": "Quantum Mechanics",
+    "description": "Introduction to quantum mechanics.",
+    "credits": 3,
+    "instructor": "Joseph Thomas",
+    "department": "Physics"
+  },
+  {
+    "code": "PH104",
+    "name": "Thermodynamics",
+    "description": "Fundamentals of thermodynamics.",
+    "credits": 3,
+    "instructor": "Christopher Perez",
+    "department": "Physics"
+  },
+  {
+    "code": "PH105",
+    "name": "Optics",
+    "description": "Study of light and optics.",
+    "credits": 3,
+    "instructor": "Anthony Lewis",
+    "department": "Physics"
+  },
+  {
+    "code": "CH101",
+    "name": "General Chemistry I",
+    "description": "Basic principles of chemistry.",
+    "credits": 4,
+    "instructor": "Emily Davis",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH102",
+    "name": "General Chemistry II",
+    "description": "Continuation of General Chemistry I.",
+    "credits": 4,
+    "instructor": "Patricia Hernandez",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH103",
+    "name": "Organic Chemistry",
+    "description": "Study of organic compounds.",
+    "credits": 4,
+    "instructor": "Jessica Taylor",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH104",
+    "name": "Analytical Chemistry",
+    "description": "Methods of chemical analysis.",
+    "credits": 3,
+    "instructor": "Nancy Thompson",
+    "department": "Chemistry"
+  },
+  {
+    "code": "CH105",
+    "name": "Physical Chemistry",
+    "description": "Principles of physical chemistry.",
+    "credits": 3,
+    "instructor": "Sandra Walker",
+    "department": "Chemistry"
+  },
+  {
+    "code": "BI101",
+    "name": "Biology I",
+    "description": "Introduction to biology.",
+    "credits": 4,
+    "instructor": "Robert Miller",
+    "department": "Biology"
+  },
+  {
+    "code": "BI102",
+    "name": "Biology II",
+    "description": "Continuation of Biology I.",
+    "credits": 4,
+    "instructor": "David Lopez",
+    "department": "Biology"
+  },
+  {
+    "code": "BI103",
+    "name": "Microbiology",
+    "description": "Study of microorganisms.",
+    "credits": 3,
+    "instructor": "Thomas Moore",
+    "department": "Biology"
+  },
+  {
+    "code": "BI104",
+    "name": "Genetics",
+    "description": "Principles of genetics.",
+    "credits": 3,
+    "instructor": "Daniel White",
+    "department": "Biology"
+  },
+  {
+    "code": "BI105",
+    "name": "Biochemistry",
+    "description": "Study of chemical processes in living organisms.",
+    "credits": 4,
+    "instructor": "Donald Hall",
+    "department": "Biology"
+  },
+  {
+    "code": "EN101",
+    "name": "Introduction to Engineering",
+    "description": "Overview of engineering disciplines.",
+    "credits": 3,
+    "instructor": "Mary Brown",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN102",
+    "name": "Engineering Mechanics",
+    "description": "Statics and dynamics.",
+    "credits": 3,
+    "instructor": "Barbara Gonzalez",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN103",
+    "name": "Thermodynamics",
+    "description": "Principles of thermodynamics.",
+    "credits": 3,
+    "instructor": "Sarah Jackson",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN104",
+    "name": "Fluid Mechanics",
+    "description": "Study of fluid behavior.",
+    "credits": 3,
+    "instructor": "Lisa Harris",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN105",
+    "name": "Materials Science",
+    "description": "Properties and applications of materials.",
+    "credits": 3,
+    "instructor": "Ashley Allen",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN201",
+    "name": "Electrical Circuits",
+    "description": "Fundamentals of electrical circuits.",
+    "credits": 4,
+    "instructor": "John Doe",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN202",
+    "name": "Control Systems",
+    "description": "Principles of control systems.",
+    "credits": 4,
+    "instructor": "Mary Brown",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN203",
+    "name": "Digital Electronics",
+    "description": "Study of digital circuits.",
+    "credits": 4,
+    "instructor": "Sarah Jackson",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN204",
+    "name": "Mechanical Engineering Design",
+    "description": "Design principles in mechanical engineering.",
+    "credits": 4,
+    "instructor": "Lisa Harris",
+    "department": "Engineering"
+  },
+  {
+    "code": "EN205",
+    "name": "Heat Transfer",
+    "description": "Study of heat transfer principles.",
+    "credits": 4,
+    "instructor": "Ashley Allen",
+    "department": "Engineering"
+  },
+  {
+    "code": "CS201",
+    "name": "Algorithms",
+    "description": "Advanced study of algorithms.",
+    "credits": 3,
+    "instructor": "John Doe",
+    "department": "Computer Science"
+  },
+  {
+    "code": "CS202",
+    "name": "Machine Learning",
+    "description": "Introduction to machine learning concepts.",
+    "credits": 4,
+    "instructor": "William Jones",
+    "department": "Computer Science"
+  }
+]

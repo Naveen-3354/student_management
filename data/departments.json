@@ -1,0 +1,212 @@
+[
+  {
+    "deptId": "CSE",
+    "name": "Computer Science and Engineering",
+    "description": "Department of Computer Science and Engineering",
+    "head": "Dr. Jane Doe",
+    "contactInfo": "jane.doe@example.com"
+  },
+  {
+    "deptId": "ECE",
+    "name": "Electronics and Communication Engineering",
+    "description": "Department of Electronics and Communication Engineering",
+    "head": "Dr. John Smith",
+    "contactInfo": "john.smith@example.com"
+  },
+  {
+    "deptId": "ME",
+    "name": "Mechanical Engineering",
+    "description": "Department of Mechanical Engineering",
+    "head": "Dr. Alan Turing",
+    "contactInfo": "alan.turing@example.com"
+  },
+  {
+    "deptId": "CE",
+    "name": "Civil Engineering",
+    "description": "Department of Civil Engineering",
+    "head": "Dr. Grace Hopper",
+    "contactInfo": "grace.hopper@example.com"
+  },
+  {
+    "deptId": "EEE",
+    "name": "Electrical and Electronics Engineering",
+    "description": "Department of Electrical and Electronics Engineering",
+    "head": "Dr. Nikola Tesla",
+    "contactInfo": "nikola.tesla@example.com"
+  },
+  {
+    "deptId": "AE",
+    "name": "Aerospace Engineering",
+    "description": "Department of Aerospace Engineering",
+    "head": "Dr. Amelia Earhart",
+    "contactInfo": "amelia.earhart@example.com"
+  },
+  {
+    "deptId": "CHE",
+    "name": "Chemical Engineering",
+    "description": "Department of Chemical Engineering",
+    "head": "Dr. Linus Pauling",
+    "contactInfo": "linus.pauling@example.com"
+  },
+  {
+    "deptId": "BT",
+    "name": "Biotechnology",
+    "description": "Department of Biotechnology",
+    "head": "Dr. Rosalind Franklin",
+    "contactInfo": "rosalind.franklin@example.com"
+  },
+  {
+    "deptId": "BME",
+    "name": "Biomedical Engineering",
+    "description": "Department of Biomedical Engineering",
+    "head": "Dr. Jonas Salk",
+    "contactInfo": "jonas.salk@example.com"
+  },
+  {
+    "deptId": "MS",
+    "name": "Materials Science",
+    "description": "Department of Materials Science",
+    "head": "Dr. Richard Feynman",
+    "contactInfo": "richard.feynman@example.com"
+  },
+  {
+    "deptId": "IE",
+    "name": "Industrial Engineering",
+    "description": "Department of Industrial Engineering",
+    "head": "Dr. Henry Ford",
+    "contactInfo": "henry.ford@example.com"
+  },
+  {
+    "deptId": "EE",
+    "name": "Environmental Engineering",
+    "description": "Department of Environmental Engineering",
+    "head": "Dr. Rachel Carson",
+    "contactInfo": "rachel.carson@example.com"
+  },
+  {
+    "deptId": "NE",
+    "name": "Nuclear Engineering",
+    "description": "Department of Nuclear Engineering",
+    "head": "Dr. Enrico Fermi",
+    "contactInfo": "enrico.fermi@example.com"
+  },
+  {
+    "deptId": "MSE",
+    "name": "Materials Science and Engineering",
+    "description": "Department of Materials Science and Engineering",
+    "head": "Dr. Robert Hooke",
+    "contactInfo": "robert.hooke@example.com"
+  },
+  {
+    "deptId": "CBE",
+    "name": "Chemical and Biomolecular Engineering",
+    "description": "Department of Chemical and Biomolecular Engineering",
+    "head": "Dr. Fritz Haber",
+    "contactInfo": "fritz.haber@example.com"
+  },
+  {
+    "deptId": "SE",
+    "name": "Software Engineering",
+    "description": "Department of Software Engineering",
+    "head": "Dr. Ada Lovelace",
+    "contactInfo": "ada.lovelace@example.com"
+  },
+  {
+    "deptId": "IS",
+    "name": "Information Systems",
+    "description": "Department of Information Systems",
+    "head": "Dr. Alan Kay",
+    "contactInfo": "alan.kay@example.com"
+  },
+  {
+    "deptId": "CS",
+    "name": "Computer Science",
+    "description": "Department of Computer Science",
+    "head": "Dr. Barbara Liskov",
+    "contactInfo": "barbara.liskov@example.com"
+  },
+  {
+    "deptId": "DS",
+    "name": "Data Science",
+    "description": "Department of Data Science",
+    "head": "Dr. Jeff Hammerbacher",
+    "contactInfo": "jeff.hammerbacher@example.com"
+  },
+  {
+    "deptId": "AI",
+    "name": "Artificial Intelligence",
+    "description": "Department of Artificial Intelligence",
+    "head": "Dr. Andrew Ng",
+    "contactInfo": "andrew.ng@example.com"
+  },
+  {
+    "deptId": "ML",
+    "name": "Machine Learning",
+    "description": "Department of Machine Learning",
+    "head": "Dr. Yann LeCun",
+    "contactInfo": "yann.lecun@example.com"
+  },
+  {
+    "deptId": "BA",
+    "name": "Business Analytics",
+    "description": "Department of Business Analytics",
+    "head": "Dr. Bernard Marr",
+    "contactInfo": "bernard.marr@example.com"
+  },
+  {
+    "deptId": "OR",
+    "name": "Operations Research",
+    "description": "Department of Operations Research",
+    "head": "Dr. Frederick Taylor",
+    "contactInfo": "frederick.taylor@example.com"
+  },
+  {
+    "deptId": "AM",
+    "name": "Applied Mathematics",
+    "description": "Department of Applied Mathematics",
+    "head": "Dr. John von Neumann",
+    "contactInfo": "john.neumann@example.com"
+  },
+  {
+    "deptId": "PHY",
+    "name": "Physics",
+    "description": "Department of Physics",
+    "head": "Dr. Albert Einstein",
+    "contactInfo": "albert.einstein@example.com"
+  },
+  {
+    "deptId": "CHM",
+    "name": "Chemistry",
+    "description": "Department of Chemistry",
+    "head": "Dr. Marie Curie",
+    "contactInfo": "marie.curie@example.com"
+  },
+  {
+    "deptId": "BIO",
+    "name": "Biology",
+    "description": "Department of Biology",
+    "head": "Dr. Charles Darwin",
+    "contactInfo": "charles.darwin@example.com"
+  },
+  {
+    "deptId": "PSY",
+    "name": "Psychology",
+    "description": "Department of Psychology",
+    "head": "Dr. Sigmund Freud",
+    "contactInfo": "sigmund.freud@example.com"
+  },
+  {
+    "deptId": "SOC",
+    "name": "Sociology",
+    "description": "Department of Sociology",
+    "head": "Dr. Max Weber",
+    "contactInfo": "max.weber@example.com"
+  },
+  {
+    "deptId": "ECON",
+    "name": "Economics",
+    "description": "Department of Economics",
+    "head": "Dr. Adam Smith",
+    "contactInfo": "adam.smith@example.com"
+  }
+]

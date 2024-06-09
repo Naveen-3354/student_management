@@ -24,6 +24,10 @@ public class DepartmentService {
         return departmentRepository.save(department);
     }
 
+    public List<Department> saveAllDepartment(List<Department> department) {
+        return departmentRepository.saveAll(department);
+    }
+
     public void deleteDepartment(Long id) {
         departmentRepository.deleteById(id);
     }

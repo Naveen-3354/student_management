@@ -23,7 +23,12 @@ public class Subject {
     private String semester;
     private String type; // Example: Core, Elective
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.PERSIST)
+    @JoinTable(name = "subject_prerequisite",
+            joinColumns = @JoinColumn(name = "subject_id"),
+            inverseJoinColumns = @JoinColumn(name = "prerequisite_id"))
     private List<Subject> prerequisites;
-
+    public Subject(String code) {
+        this.code = code;
+    }
 }

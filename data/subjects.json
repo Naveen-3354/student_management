@@ -1,0 +1,313 @@
+[
+  {
+    "code": "CS101",
+    "name": "Introduction to Programming",
+    "description": "An introductory course covering basic programming concepts.",
+    "credits": 4,
+    "syllabus": "Variables, Data Types, Control Structures, Functions",
+    "semester": "Fall 2024",
+    "type": "Core",
+    "prerequisites": []
+  },
+  {
+    "code": "CS102",
+    "name": "Data Structures",
+    "description": "Fundamental data structures and their implementations.",
+    "credits": 4,
+    "syllabus": "Arrays, Linked Lists, Stacks, Queues, Trees",
+    "semester": "Spring 2025",
+    "type": "Core",
+    "prerequisites": ["CS101"]
+  },
+  {
+    "code": "CS103",
+    "name": "Algorithms",
+    "description": "Analysis and design of algorithms.",
+    "credits": 3,
+    "syllabus": "Sorting, Searching, Dynamic Programming, Greedy Algorithms",
+    "semester": "Fall 2025",
+    "type": "Core",
+    "prerequisites": ["CS102"]
+  },
+  {
+    "code": "CS104",
+    "name": "Database Systems",
+    "description": "Introduction to database management systems.",
+    "credits": 3,
+    "syllabus": "Relational Model, SQL, Database Design, Normalization",
+    "semester": "Spring 2026",
+    "type": "Elective",
+    "prerequisites": ["CS101"]
+  },
+  {
+    "code": "CS105",
+    "name": "Web Development",
+    "description": "Building web applications using modern technologies.",
+    "credits": 4,
+    "syllabus": "HTML, CSS, JavaScript, React.js, Node.js, Express.js",
+    "semester": "Fall 2026",
+    "type": "Elective",
+    "prerequisites": ["CS101"]
+  },
+  {
+    "code": "CS106",
+    "name": "Operating Systems",
+    "description": "Principles and design of operating systems.",
+    "credits": 3,
+    "syllabus": "Processes, Memory Management, File Systems, Synchronization",
+    "semester": "Spring 2027",
+    "type": "Core",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS107",
+    "name": "Computer Networks",
+    "description": "Fundamentals of computer networking.",
+    "credits": 3,
+    "syllabus": "TCP/IP, Routing, Switching, Network Security",
+    "semester": "Fall 2027",
+    "type": "Core",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS108",
+    "name": "Software Engineering",
+    "description": "Principles and practices of software development.",
+    "credits": 4,
+    "syllabus": "Requirements Engineering, Software Design, Testing, Maintenance",
+    "semester": "Spring 2028",
+    "type": "Core",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS109",
+    "name": "Artificial Intelligence",
+    "description": "Introduction to artificial intelligence techniques.",
+    "credits": 4,
+    "syllabus": "Search Algorithms, Knowledge Representation, Machine Learning",
+    "semester": "Fall 2028",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS110",
+    "name": "Machine Learning",
+    "description": "Foundations of machine learning algorithms.",
+    "credits": 4,
+    "syllabus": "Supervised Learning, Unsupervised Learning, Deep Learning",
+    "semester": "Spring 2029",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS111",
+    "name": "Big Data Analytics",
+    "description": "Analyzing large-scale datasets.",
+    "credits": 3,
+    "syllabus": "MapReduce, Hadoop, Spark, Data Visualization",
+    "semester": "Fall 2029",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS112",
+    "name": "Cybersecurity",
+    "description": "Protecting computer systems from cyber threats.",
+    "credits": 3,
+    "syllabus": "Network Security, Cryptography, Ethical Hacking",
+    "semester": "Spring 2030",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS113",
+    "name": "Cloud Computing",
+    "description": "Fundamentals of cloud computing technologies.",
+    "credits": 3,
+    "syllabus": "Virtualization, Infrastructure as a Service, Platform as a Service",
+    "semester": "Fall 2030",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS114",
+    "name": "Mobile App Development",
+    "description": "Building applications for mobile devices.",
+    "credits": 4,
+    "syllabus": "Android Development, iOS Development, Cross-platform Frameworks",
+    "semester": "Spring 2031",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS115",
+    "name": "Computer Graphics",
+    "description": "Principles and techniques of computer graphics.",
+    "credits": 3,
+    "syllabus": "2D Graphics, 3D Graphics, Rendering Techniques",
+    "semester": "Fall 2031",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS116",
+    "name": "Natural Language Processing",
+    "description": "Processing and analyzing natural language data.",
+    "credits": 3,
+    "syllabus": "Text Processing, Language Models, Sentiment Analysis",
+    "semester": "Spring 2032",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS117",
+    "name": "Computer Vision",
+    "description": "Understanding and interpreting visual data by computers.",
+    "credits": 3,
+    "syllabus": "Image Processing, Object Recognition, Deep Learning for Vision",
+    "semester": "Fall 2032",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS118",
+    "name": "Blockchain Technology",
+    "description": "Principles and applications of blockchain.",
+    "credits": 3,
+    "syllabus": "Distributed Ledger, Smart Contracts, Cryptocurrencies",
+    "semester": "Spring 2033",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS119",
+    "name": "Quantum Computing",
+    "description": "Introduction to quantum computing principles.",
+    "credits": 3,
+    "syllabus": "Quantum Gates, Quantum Algorithms, Quantum Cryptography",
+    "semester": "Fall 2033",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS120",
+    "name": "Robotics",
+    "description": "Design and control of robotic systems.",
+    "credits": 4,
+    "syllabus": "Robot Kinematics, Robot Dynamics, Motion Planning",
+    "semester": "Spring 2034",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS121",
+    "name": "Human-Computer Interaction",
+    "description": "Study of interaction between humans and computers.",
+    "credits": 3,
+    "syllabus": "User Interface Design, Usability Testing, Interaction Techniques",
+    "semester": "Fall 2034",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS122",
+    "name": "Internet of Things",
+    "description": "Connecting physical devices to the internet.",
+    "credits": 3,
+    "syllabus": "Sensors, Actuators, IoT Protocols, Cloud Integration",
+    "semester": "Spring 2035",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS123",
+    "name": "Computer Ethics",
+    "description": "Ethical and social issues in computing.",
+    "credits": 3,
+    "syllabus": "Privacy, Intellectual Property, Cybersecurity Ethics",
+    "semester": "Fall 2035",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS124",
+    "name": "Embedded Systems",
+    "description": "Designing and programming embedded systems.",
+    "credits": 4,
+    "syllabus": "Microcontrollers, Real-time Operating Systems, Embedded Software",
+    "semester": "Spring 2036",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS125",
+    "name": "Compiler Construction",
+    "description": "Principles of compiler design and construction.",
+    "credits": 4,
+    "syllabus": "Lexical Analysis, Syntax Analysis, Semantic Analysis, Code Generation",
+    "semester": "Fall 2036",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS126",
+    "name": "Game Development",
+    "description": "Creating interactive games using game development tools.",
+    "credits": 4,
+    "syllabus": "Game Design, Game Engines, Graphics Programming",
+    "semester": "Spring 2037",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS127",
+    "name": "Virtual Reality",
+    "description": "Designing and developing virtual reality experiences.",
+    "credits": 3,
+    "syllabus": "VR Hardware, VR Software, Immersive Environments",
+    "semester": "Fall 2037",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS128",
+    "name": "Ethical Hacking",
+    "description": "Defensive and offensive techniques in cybersecurity.",
+    "credits": 3,
+    "syllabus": "Penetration Testing, Vulnerability Analysis, Cyber Attack Techniques",
+    "semester": "Spring 2038",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS129",
+    "name": "Digital Image Processing",
+    "description": "Processing and analysis of digital images.",
+    "credits": 3,
+    "syllabus": "Image Enhancement, Image Restoration, Feature Extraction",
+    "semester": "Fall 2038",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS130",
+    "name": "Bioinformatics",
+    "description": "Application of computer science in biological research.",
+    "credits": 4,
+    "syllabus": "Genome Sequencing, Sequence Alignment, Molecular Modeling",
+    "semester": "Spring 2039",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  },
+  {
+    "code": "CS131",
+    "name": "Computational Biology",
+    "description": "Computational methods in biological sciences.",
+    "credits": 4,
+    "syllabus": "Protein Structure Prediction, Genome Analysis, Systems Biology",
+    "semester": "Fall 2039",
+    "type": "Elective",
+    "prerequisites": ["CS103"]
+  }
+]
+

@@ -28,6 +28,12 @@ public class SubjectController {
         return subjectService.saveSubject(subject);
     }
 
+    @PostMapping("/all")
+    public List<Subject> createAllSubject(@RequestBody List<Subject> subject) {
+        return subjectService.saveAllSubject(subject);
+    }
+
+
     @DeleteMapping("/{id}")
     public void deleteSubject(@PathVariable Long id) {
         subjectService.deleteSubject(id);

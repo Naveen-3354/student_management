@@ -1,0 +1,213 @@
+
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "department": "Computer Science",
+    "courses": ["CS101", "CS201"]
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "department": "Mathematics",
+    "courses": ["MA101", "MA201"]
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "email": "michael.johnson@example.com",
+    "department": "Physics",
+    "courses": ["PH101", "PH201"]
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@example.com",
+    "department": "Chemistry",
+    "courses": ["CH101", "CH201"]
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Miller",
+    "email": "robert.miller@example.com",
+    "department": "Biology",
+    "courses": ["BI101", "BI201"]
+  },
+  {
+    "firstName": "Mary",
+    "lastName": "Brown",
+    "email": "mary.brown@example.com",
+    "department": "Engineering",
+    "courses": ["EN101", "EN201"]
+  },
+  {
+    "firstName": "William",
+    "lastName": "Jones",
+    "email": "william.jones@example.com",
+    "department": "Computer Science",
+    "courses": ["CS102", "CS202"]
+  },
+  {
+    "firstName": "Linda",
+    "lastName": "Garcia",
+    "email": "linda.garcia@example.com",
+    "department": "Mathematics",
+    "courses": ["MA102", "MA202"]
+  },
+  {
+    "firstName": "James",
+    "lastName": "Martinez",
+    "email": "james.martinez@example.com",
+    "department": "Physics",
+    "courses": ["PH102", "PH202"]
+  },
+  {
+    "firstName": "Patricia",
+    "lastName": "Hernandez",
+    "email": "patricia.hernandez@example.com",
+    "department": "Chemistry",
+    "courses": ["CH102", "CH202"]
+  },
+  {
+    "firstName": "David",
+    "lastName": "Lopez",
+    "email": "david.lopez@example.com",
+    "department": "Biology",
+    "courses": ["BI102", "BI202"]
+  },
+  {
+    "firstName": "Barbara",
+    "lastName": "Gonzalez",
+    "email": "barbara.gonzalez@example.com",
+    "department": "Engineering",
+    "courses": ["EN102", "EN202"]
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Wilson",
+    "email": "richard.wilson@example.com",
+    "department": "Computer Science",
+    "courses": ["CS103", "CS203"]
+  },
+  {
+    "firstName": "Susan",
+    "lastName": "Anderson",
+    "email": "susan.anderson@example.com",
+    "department": "Mathematics",
+    "courses": ["MA103", "MA203"]
+  },
+  {
+    "firstName": "Joseph",
+    "lastName": "Thomas",
+    "email": "joseph.thomas@example.com",
+    "department": "Physics",
+    "courses": ["PH103", "PH203"]
+  },
+  {
+    "firstName": "Jessica",
+    "lastName": "Taylor",
+    "email": "jessica.taylor@example.com",
+    "department": "Chemistry",
+    "courses": ["CH103", "CH203"]
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Moore",
+    "email": "thomas.moore@example.com",
+    "department": "Biology",
+    "courses": ["BI103", "BI203"]
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Jackson",
+    "email": "sarah.jackson@example.com",
+    "department": "Engineering",
+    "courses": ["EN103", "EN203"]
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Martin",
+    "email": "charles.martin@example.com",
+    "department": "Computer Science",
+    "courses": ["CS104", "CS204"]
+  },
+  {
+    "firstName": "Karen",
+    "lastName": "Lee",
+    "email": "karen.lee@example.com",
+    "department": "Mathematics",
+    "courses": ["MA104", "MA204"]
+  },
+  {
+    "firstName": "Christopher",
+    "lastName": "Perez",
+    "email": "christopher.perez@example.com",
+    "department": "Physics",
+    "courses": ["PH104", "PH204"]
+  },
+  {
+    "firstName": "Nancy",
+    "lastName": "Thompson",
+    "email": "nancy.thompson@example.com",
+    "department": "Chemistry",
+    "courses": ["CH104", "CH204"]
+  },
+  {
+    "firstName": "Daniel",
+    "lastName": "White",
+    "email": "daniel.white@example.com",
+    "department": "Biology",
+    "courses": ["BI104", "BI204"]
+  },
+  {
+    "firstName": "Lisa",
+    "lastName": "Harris",
+    "email": "lisa.harris@example.com",
+    "department": "Engineering",
+    "courses": ["EN104", "EN204"]
+  },
+  {
+    "firstName": "Matthew",
+    "lastName": "Clark",
+    "email": "matthew.clark@example.com",
+    "department": "Computer Science",
+    "courses": ["CS105", "CS205"]
+  },
+  {
+    "firstName": "Betty",
+    "lastName": "Rodriguez",
+    "email": "betty.rodriguez@example.com",
+    "department": "Mathematics",
+    "courses": ["MA105", "MA205"]
+  },
+  {
+    "firstName": "Anthony",
+    "lastName": "Lewis",
+    "email": "anthony.lewis@example.com",
+    "department": "Physics",
+    "courses": ["PH105", "PH205"]
+  },
+  {
+    "firstName": "Sandra",
+    "lastName": "Walker",
+    "email": "sandra.walker@example.com",
+    "department": "Chemistry",
+    "courses": ["CH105", "CH205"]
+  },
+  {
+    "firstName": "Donald",
+    "lastName": "Hall",
+    "email": "donald.hall@example.com",
+    "department": "Biology",
+    "courses": ["BI105", "BI205"]
+  },
+  {
+    "firstName": "Ashley",
+    "lastName": "Allen",
+    "email": "ashley.allen@example.com",
+    "department": "Engineering",
+    "courses": ["EN105", "EN205"]
+  }
+]

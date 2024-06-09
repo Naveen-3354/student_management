@@ -23,6 +23,12 @@ public class SubjectService {
     public Subject saveSubject(Subject subject) {
         return subjectRepository.save(subject);
     }
+    public List<Subject> saveAllSubject(List<Subject> subject) {
+        for(Subject x : subject){
+            subjectRepository.save(x);
+        }
+        return subjectRepository.findAll();
+    }
 
     public void deleteSubject(Long id) {
         subjectRepository.deleteById(id);

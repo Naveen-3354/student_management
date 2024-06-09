@@ -28,6 +28,11 @@ public class DepartmentController {
         return departmentService.saveDepartment(department);
     }
 
+    @PostMapping("/all")
+    public List<Department> createAllDepartment(@RequestBody List<Department> department) {
+        return departmentService.saveAllDepartment(department);
+    }
+
     @DeleteMapping("/{id}")
     public void deleteDepartment(@PathVariable Long id) {
         departmentService.deleteDepartment(id);
