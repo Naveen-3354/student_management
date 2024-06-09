@@ -5,24 +5,26 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DisciplinaryRecord {
+public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private Date incidentDate;
+    private String deptId;
+    private String name;
     private String description;
-    private String actionsTaken;
+    private String head;
+    private String contactInfo;
 
-    @ManyToOne
-    @JoinColumn(name = "student_id")
-    private Student student;
+    @OneToMany(mappedBy = "department")
+    private List<Course> courses;
 
-    // Getters and Setters
+    @OneToMany(mappedBy = "department")
+    private List<Instructor> instructors;
+
 }

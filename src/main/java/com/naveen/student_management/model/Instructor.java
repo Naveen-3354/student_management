@@ -5,24 +5,26 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ClassSchedule {
+public class Instructor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private Date timetable;
-    private String classroomLocation;
-    private String subject;
+    private String instructorId;
+    private String name;
+    private String email;
+    private String phone;
+    private String specialization;
+    private String officeLocation;
 
     @ManyToOne
-    @JoinColumn(name = "course_id")
-    private Course course;
+    private Department department;
 
-    // Getters and Setters
+    @ManyToMany
+    private List<Subject> subjects;
 }

@@ -1,22 +1,42 @@
 package com.naveen.student_management.model;
 
-import jakarta.persistence.*;
 
-import java.util.Set;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+import java.time.LocalDate;
+import java.util.List;
 
 @Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String courseId;
+    private String name;
+    private String description;
+    private LocalDate startDate;
+    private LocalDate endDate;
+    private String level; // Example: Undergraduate, Graduate
+    private int maxStudents;
 
-    private String courseName;
-    private String courseDescription;
-    private int credits;
+    @ManyToMany
+    private List<Subject> subjects;
 
-    @OneToMany(mappedBy = "course")
-    private Set<ClassSchedule> classSchedules;
+    @ManyToMany
+    private List<Course> prerequisites;
 
-    // Getters and Setters
+    @ManyToOne
+    private Department department;
+
+    @ManyToMany
+    private List<Instructor> instructors;
+
 }
-

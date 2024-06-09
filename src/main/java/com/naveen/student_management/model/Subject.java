@@ -5,23 +5,25 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Subject {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    private String role;
+    private String code;
     private String name;
-    private String email;
-    private String phoneNumber;
-    private String address;
-    private String department;
-    private String subjectsTaught;
+    private String description;
+    private int credits;
+    private String syllabus;
+    private String semester;
+    private String type; // Example: Core, Elective
 
-    // Getters and Setters
+    @ManyToMany
+    private List<Subject> prerequisites;
+
 }
